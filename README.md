@@ -46,6 +46,7 @@ config.yml  dancer-server.pl
 == Entering the development dance floor ...
 ```
 
+to see the welcome message
 http://ec2-54-79-195-173.ap-southeast-2.compute.amazonaws.com:8080/
 
 ```
@@ -53,6 +54,10 @@ http://ec2-54-79-195-173.ap-southeast-2.compute.amazonaws.com:8080/
    "message" : "Hello from Perl and Dancer"
 }
 ```
+http://ec2-54-79-195-173.ap-southeast-2.compute.amazonaws.com:8080/api/quotes
+
+http://ec2-54-79-195-173.ap-southeast-2.compute.amazonaws.com:8080/demo
+
 
 # Links
 
