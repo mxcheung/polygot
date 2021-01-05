@@ -2,6 +2,8 @@
 
 # install docker on ec2
 
+https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html
+
 ```
  1010  sudo amazon-linux-extras install docker
  1011  sudo service docker start
