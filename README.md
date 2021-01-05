@@ -86,3 +86,7 @@ https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html
 https://github.com/PrincessPolymath/polyglot
 
 https://hub.docker.com/r/synedra/polyglot/
+
+https://github.com/PrincessPolymath/polyglot/blob/master/Chapter4/04_04/dancer-server.pl
+
+https://github.com/PrincessPolymath/polyglot/blob/master/Chapter3/03_04/flask-server.py
