@@ -82,7 +82,9 @@ http://ec2-13-210-167-124.ap-southeast-2.compute.amazonaws.com:8080/demo
 
 # Cloud 9
 To bypass docker install steps
+
 Cloud 9 has docker already installed however by default cloud 9 has only 8 GB disk space.
+
 Expand EBS volume to 20 GB and restart cloud 9
 
 `docker run -i -t -p 8080:8080 synedra/polyglot`
