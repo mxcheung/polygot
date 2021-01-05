@@ -90,3 +90,5 @@ https://hub.docker.com/r/synedra/polyglot/
 https://github.com/PrincessPolymath/polyglot/blob/master/Chapter4/04_04/dancer-server.pl
 
 https://github.com/PrincessPolymath/polyglot/blob/master/Chapter3/03_04/flask-server.py
+
+https://cloudaffaire.com/how-to-install-git-in-aws-ec2-instance/
