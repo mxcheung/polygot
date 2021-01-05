@@ -25,6 +25,21 @@ e15a7542e498        synedra/polyglot    "/bin/bash"         6 minutes ago       
 [ Polyglot Course: /opt/Chapter1 ] >>
 
 ```
+
+# Mongodb start
+
+```
+[ec2-user@ip-172-31-19-190 ~]$ docker exec -it 5143d3b5dd3c /bin/bash
+===========================================================================================
+=  Welcome to the Docker Container for the Polyglot Class                                 =
+===========================================================================================
+=   >> mongod                                                                             =
+=   >> mongoimport --collection quotes --file quotes.json --jsonArray                     =
+===========================================================================================
+[ Polyglot Course: /opt/Chapter1 ] >> /etc/init.d/mongodb start
+ * Starting database mongodb                                                                                            [ OK ]
+```
+
 # Step by Step
 
 ssh -i "cheungm-mqtt.pem" ec2-user@ec2-54-79-195-173.ap-southeast-2.compute.amazonaws.com
