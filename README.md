@@ -10,6 +10,21 @@ https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html
  1012  sudo usermod -a -G docker ec2-user
 ```
 
+# run in docker
+```
+[ec2-user@ip-172-31-44-23 polyglot]$ docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS                    NAMES
+e15a7542e498        synedra/polyglot    "/bin/bash"         6 minutes ago       Up 6 minutes        0.0.0.0:8080->8080/tcp   exciting_ganguly
+[ec2-user@ip-172-31-44-23 polyglot]$ docker exec -it e15a7542e498 /bin/bash
+===========================================================================================
+=  Welcome to the Docker Container for the Polyglot Class                                 =
+===========================================================================================
+=   >> mongod                                                                             =
+=   >> mongoimport --collection quotes --file quotes.json --jsonArray                     =
+===========================================================================================
+[ Polyglot Course: /opt/Chapter1 ] >>
+
+```
 # Step by Step
 
 ssh -i "cheungm-mqtt.pem" ec2-user@ec2-54-79-195-173.ap-southeast-2.compute.amazonaws.com
