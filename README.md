@@ -34,6 +34,26 @@ git clone https://github.com/PrincessPolymath/polyglot.git
 cd polygot
 `docker run -i -t -p 8080:8080 synedra/polyglot`
 
+
+# Test the website
+```
+[ Polyglot Course: /opt ] >> cd Chapter4
+[ Polyglot Course: /opt/Chapter4/04_02 ] >> cd Start
+[ Polyglot Course: /opt/Chapter4/04_02/Start ] >> ls
+config.yml  dancer-server.pl
+[ Polyglot Course: /opt/Chapter4/04_02/Start ] >> perl dancer-server.pl
+>> Dancer 1.3202 server 31 listening on http://0.0.0.0:8080
+== Entering the development dance floor ...
+```
+
+http://ec2-54-79-195-173.ap-southeast-2.compute.amazonaws.com:8080/
+
+```
+{
+   "message" : "Hello from Perl and Dancer"
+}
+```
+
 # Links
 
 https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html
