@@ -77,8 +77,7 @@ http://ec2-54-79-195-173.ap-southeast-2.compute.amazonaws.com:8080/
 ```
 http://ec2-54-79-195-173.ap-southeast-2.compute.amazonaws.com:8080/api/quotes
 
-http://ec2-54-79-195-173.ap-southeast-2.compute.amazonaws.com:8080/demo
-
+http://ec2-13-210-167-124.ap-southeast-2.compute.amazonaws.com:8080/demo
 
 # Links
 
