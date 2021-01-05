@@ -88,7 +88,9 @@ Cloud 9 has docker already installed however by default cloud 9 has only 8 GB di
 Expand EBS volume to 20 GB and restart cloud 9
 
 `docker run -i -t -p 8080:8080 synedra/polyglot`
+
 /etc/init.d/mongodb start
+
 mongoimport --collection quotes --file quotes.json --jsonArray    
 
 Preview
