@@ -52,7 +52,8 @@ ssh -i "cheungm-mqtt.pem" ec2-user@ec2-54-79-195-173.ap-southeast-2.compute.amaz
 
 git clone https://github.com/PrincessPolymath/polyglot.git
 
-cd polygot
+cd polyglot
+
 `docker run -i -t -p 8080:8080 synedra/polyglot`
 
 
