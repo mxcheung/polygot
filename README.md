@@ -80,6 +80,20 @@ http://ec2-54-79-195-173.ap-southeast-2.compute.amazonaws.com:8080/api/quotes
 
 http://ec2-13-210-167-124.ap-southeast-2.compute.amazonaws.com:8080/demo
 
+# Cloud 9
+To bypass docker install steps
+Cloud 9 has docker already installed however by default cloud 9 has only 8 GB disk space.
+Expand EBS volume to 20 GB and restart cloud 9
+
+`docker run -i -t -p 8080:8080 synedra/polyglot`
+/etc/init.d/mongodb start
+mongoimport --collection quotes --file quotes.json --jsonArray    
+
+Preview
+```
+https://16b302e3292c46759b9ada9ee894ff46.vfs.cloud9.ap-southeast-2.amazonaws.com/demo
+```
+
 # Links
 
 https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html
