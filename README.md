@@ -79,3 +79,5 @@ http://ec2-54-79-195-173.ap-southeast-2.compute.amazonaws.com:8080/demo
 https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html
 
 https://github.com/PrincessPolymath/polyglot
+
+https://hub.docker.com/r/synedra/polyglot/
