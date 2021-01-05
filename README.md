@@ -3,7 +3,7 @@
 # Objectives
 - Explore Perl Dancer and Mongo modules
 - Docker ==>  Mongodb +  [Python| Perl | Ruby | Node]
-
+- CRUD script ==> dancer-server.pl  and flask-server.py
 
 
 # install docker on ec2
