@@ -1,5 +1,12 @@
 # polygot
 
+# install docker on ec2
+
+```
+ 1010  sudo amazon-linux-extras install docker
+ 1011  sudo service docker start
+ 1012  sudo usermod -a -G docker ec2-user
+```
 
 # Step by Step
 
