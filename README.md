@@ -1,5 +1,11 @@
 # polygot
 
+# Objectives
+- Explore Perl Dancer and Mongo modules
+- Docker ==>  Mongodb +  [Python| Perl | Ruby | Node]
+
+
+
 # install docker on ec2
 
 https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html
