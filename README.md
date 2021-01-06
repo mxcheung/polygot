@@ -56,6 +56,28 @@ cd polyglot
 
 `docker run -i -t -p 8080:8080 synedra/polyglot`
 
+```
+1. Login to EC2 instance
+ ssh -i "cheungm-mqtt.pem" ec2-user@ec2-13-210-167-124.ap-southeast-2.compute.amazonaws.com
+
+2.  Start Docker service
+    sudo service docker start
+
+3.  Launch Docker instance
+    docker run -i -t -p 8080:8080 synedra/polyglot
+
+
+4.  Start mongodb service
+    /etc/init.d/mongodb start
+
+5.  Import data in the database
+     mongoimport --collection quotes --file quotes.json --jsonArray  
+
+6.  Copy index.html to perl dancer folder
+   
+7. Run perl dancer script
+
+```   
 
 # Test the website
 ```
