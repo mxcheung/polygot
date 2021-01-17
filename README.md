@@ -79,6 +79,9 @@ cd polyglot
 
 7. Run perl dancer script
 
+     cd /opt/Chapter4/04_04/
+     perl dancer-server.pl
+
 ```   
 
 # Test the website
