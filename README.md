@@ -74,7 +74,9 @@ cd polyglot
      mongoimport --collection quotes --file quotes.json --jsonArray  
 
 6.  Copy index.html to perl dancer folder
-   
+
+     cp /opt/static/index.html /opt/Chapter4/04_04/
+
 7. Run perl dancer script
 
 ```   
